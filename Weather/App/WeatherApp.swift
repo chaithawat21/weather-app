@@ -2,7 +2,7 @@
 //  WeatherApp.swift
 //  Weather
 //
-//  Created by Chaithawat Pinsuwan on 3/9/2567 BE.
+//  Created by Chaithawat Pinsuwan on 20/8/24.
 //
 
 import SwiftUI
