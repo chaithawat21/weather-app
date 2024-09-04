@@ -21,6 +21,9 @@
 		E63EAD5A2C877D13009D0367 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63EAD592C877D13009D0367 /* ModelData.swift */; };
 		E6748D5C2C8802130044E5D3 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6748D5B2C8802130044E5D3 /* BackgroundView.swift */; };
 		E6748D5E2C880BC20044E5D3 /* BackgroundWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6748D5D2C880BC20044E5D3 /* BackgroundWeatherView.swift */; };
+		E6748D622C8811EE0044E5D3 /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = E6748D602C8811EE0044E5D3 /* Home.png */; };
+		E6748D632C8811EE0044E5D3 /* Weather.png in Resources */ = {isa = PBXBuildFile; fileRef = E6748D612C8811EE0044E5D3 /* Weather.png */; };
+		E6748D652C8811FB0044E5D3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E6748D642C8811FB0044E5D3 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +42,9 @@
 		E63EAD592C877D13009D0367 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		E6748D5B2C8802130044E5D3 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		E6748D5D2C880BC20044E5D3 /* BackgroundWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundWeatherView.swift; sourceTree = "<group>"; };
+		E6748D602C8811EE0044E5D3 /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home.png; sourceTree = "<group>"; };
+		E6748D612C8811EE0044E5D3 /* Weather.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Weather.png; sourceTree = "<group>"; };
+		E6748D642C8811FB0044E5D3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,8 @@
 		E63EAD2C2C876A5D009D0367 = {
 			isa = PBXGroup;
 			children = (
+				E6748D642C8811FB0044E5D3 /* README.md */,
+				E6748D5F2C8811800044E5D3 /* Screenshots */,
 				E63EAD372C876A5D009D0367 /* Weather */,
 				E63EAD362C876A5D009D0367 /* Products */,
 			);
@@ -145,6 +153,15 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		E6748D5F2C8811800044E5D3 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				E6748D602C8811EE0044E5D3 /* Home.png */,
+				E6748D612C8811EE0044E5D3 /* Weather.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -203,7 +220,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6748D622C8811EE0044E5D3 /* Home.png in Resources */,
 				E63EAD402C876A60009D0367 /* Preview Assets.xcassets in Resources */,
+				E6748D652C8811FB0044E5D3 /* README.md in Resources */,
+				E6748D632C8811EE0044E5D3 /* Weather.png in Resources */,
 				E63EAD3D2C876A60009D0367 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
